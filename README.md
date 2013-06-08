@@ -74,54 +74,27 @@ Notes " notes "
 
 Different day?
 
+## todo
+
+* Projects 
+
+        (12-026) Project1 [##################################         ][65%][63.70h left]
+        (12-026) Project2 [££££££££££££££££££                         ][25%][ 3.70h left]
 
 
-Projects :-
+* save multi tick config in file
 
-(12-026) Mobile: Free Access Offers [##################################         ][65%][63.70h left]
-(12-026) Mobile: Free Access Offers [££££££££££££££££££                         ][25%][ 3.70h left]
-
-
-
-
-$ thor
-Tasks:
-  thor help [TASK]     # Describe available tasks or one specific task
-  thor install NAME    # Install an optionally named Thor file into your system tasks
-  thor installed       # List the installed Thor modules and tasks
-  thor list [SEARCH]   # List the available thor tasks (--substring means .*SEARCH)
-  thor uninstall NAME  # Uninstall a named Thor module
-  thor update NAME     # Update a Thor file from its original location
-  thor version         # Show Thor version
-
-
-Rename app 'thor' to `tick`?
-
-Readitlater/pocket page that has sub-tasks
-
-
-
-https://globalpersonals.tickspot.com/api/projects?email=ivaughan@globalpersonals.co.uk&password=
-
-
-# # https://github.com/bricooke/tickspot-ruby
-# # require 'tickspot'
-
-search for local .tickconfig in current dir, then recervise search up
-
-save multi tick config in file
-
-main:
-  account:
-    company:
-    email:
-    password: (encrypt)
-  aliases:
-    foo:
-      name: foo
-      id: 93737
-      link: Client.Project.Task
-
-could not save password in config file, and if not found re-prompt on every action (masked of cource)
-this works nicely with local cache of data, only requiring password on adding time or refreshing local cache
+        main:
+          account:
+            company:
+            email:
+            password: (encrypt)
+          aliases:
+            foo:
+              name: foo
+              id: 93737
+              link: Client.Project.Task
+    
+* could not save password in config file, and if not found re-prompt on every action (masked of cource)
+* this works nicely with local cache of data, only requiring password on adding time or refreshing local cache
 
